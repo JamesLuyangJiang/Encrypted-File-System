@@ -1,10 +1,7 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8152958&assignment_repo_type=AssignmentRepo)
-# Project 2 Starter Code
+# Encrypted File Sytem
+*Copyright: Luyang Jiang, CS161 @ University of California, Berkeley*
 
-This repository contains the starter code for Project 2!
-
-For comprehensive documentation, see the Project 2 Spec (https://cs161.org/proj2/getting-started-coding/).
-
-Write your implementation in `client/client.go`, and your tests in `client_test/client_test.go`.
-
-To test your implementation, run `go test -v` inside of the `client_test` directory.
+- Constructed a local file system that supports multiuser password login, file storage, and file sharing based on given DataStore and KeyStore API, with support of UUID library from Google
+- Designed efficient and IND-CPA secure storage scheme for both user data and file system
+- Utilized AES-CTR symmetric encryption, HMAC and SHA-512 Hash function to ensure security of most data
+- Established secure multi-level and multi-user file sharing system and access revoking scheme with usage of RSA public-key encryption and RSA digital signatures
